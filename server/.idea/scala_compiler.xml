@@ -4,6 +4,6 @@
     <profile name="sbt 1" modules="LearnAkka,learnakka">
       <option name="implicitConversions" value="true" />
     </profile>
-    <profile name="sbt 2" modules="Akka" />
+    <profile name="sbt 2" modules="Akka,server" />
   </component>
 </project>

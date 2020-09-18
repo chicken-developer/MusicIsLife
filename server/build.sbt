@@ -1,14 +1,14 @@
-name := "Akka"
+name := "server"
 
 version := "0.1"
 
 scalaVersion := "2.12.7"
 
-val akkaVersion = "2.6.6"
+val akkaVersion = "2.6.8"
 val scalaTestVersion = "3.0.5"
-val akkaHttpVersion = "10.1.12"
+val akkaHttpVersion = "10.2.0"
 
-libraryDependencies += "com.typesafe.akka" %% "akka-actor-typed" % "2.6.6"
+libraryDependencies += "com.typesafe.akka" %% "akka-actor-typed" % akkaVersion
 
 libraryDependencies ++= Seq(
   "com.typesafe.akka" %% "akka-slf4j" % akkaVersion,
@@ -26,8 +26,8 @@ libraryDependencies ++= Seq(
   "com.typesafe.akka" %% "akka-testkit" % akkaVersion,
 
   // JWT
-  "com.pauldijou" %% "jwt-spray-json" % "2.1.0"
-
+  "com.pauldijou" %% "jwt-spray-json" % "2.1.0",
+  "com.typesafe.akka" %% "akka-http-spray-json" % akkaHttpVersion
 )
 libraryDependencies ++= Seq(
   "com.typesafe.akka" %% "akka-actor" % akkaVersion,

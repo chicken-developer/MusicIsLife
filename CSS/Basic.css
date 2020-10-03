@@ -17,17 +17,19 @@ div.page{
     width: 50%;
     background-color: gray;
     padding: 10px;
-    text-align: center;
     border-radius: 10px;
+    margin: auto;
 }
 
 div.page >img{
    width: 100%;
+   text-align: center;
 }
 
 nav{
     background-color: blue;
     padding: 1%;
+    width: auto;
 }
 
 nav > ul{
@@ -35,6 +37,7 @@ nav > ul{
     margin: 0;
     padding: 0;
     display: flex;
+        
 
 }
 
@@ -42,6 +45,7 @@ nav > ul > li >a{
     padding: 15px 20px;
     text-decoration: none;
     color: white;
+    text-align: center;
 }
 
 nav > ul > li >a:hover{

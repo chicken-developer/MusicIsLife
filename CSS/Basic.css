@@ -15,7 +15,7 @@ header > h1{
 
 div.page{
     width: 50%;
-    background-color: gray;
+    background-color: none;
     padding: 10px;
     border-radius: 10px;
     margin: auto;

@@ -24,15 +24,17 @@ div.page{
 div.page >img{
    width: 100%;
    text-align: center;
+   
 }
 
 nav{
     background-color: blue;
-    padding: 1%;
-    width: auto;
+    padding: 0.5%;
+    width: 70%;
+    margin: auto;
 }
 
-nav > ul{
+nav ul{
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -41,13 +43,73 @@ nav > ul{
 
 }
 
-nav > ul > li >a{
+nav ul > li >a{
     padding: 15px 20px;
     text-decoration: none;
     color: white;
     text-align: center;
+    
 }
 
 nav > ul > li >a:hover{
     color: purple;
+}
+
+/* CSS text */
+.text-div{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: white;
+    text-transform: capitalize;
+}
+div.contact{
+    background-color: royalblue;
+    
+}
+
+div.box{
+    float: left;
+    
+    width: 24%;
+    border-radius: 10px;
+    padding: 0.5%;
+}
+div.box >img{
+    width: 100%;
+}
+div.box >p{
+    color: white;
+    font-size: 15px;
+}
+section.content{
+    overflow: hidden;
+}
+
+/*CSS SUBMenu*/
+.subcontent{
+    display: none;
+    position: absolute;
+    background-color: darkmagenta;
+    width: 200px;
+    
+}
+
+.submenu:hover .subcontent{
+    display: block;
+}
+
+footer{
+    background: black;
+    color: white;
+    padding: 10px;
+}
+
+footer >h1{
+    font-size: 50px;
+    text-align: center;
+}
+footer >p{
+    font-size: 20px;
+    text-align: center;
+    color: white;
 }
